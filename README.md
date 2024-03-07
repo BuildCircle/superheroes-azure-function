@@ -14,4 +14,4 @@ For this exercise, we need to deploy an Azure Function with:
 * The data source URL as an environment variable 'data_url'.
 * Some Azure Monitor alert for when the function throws an exception.
 
-The function code for deployment can be found in `main.py` and it shouldn't require modification. You can use any framework for deploying infrastructure such as the CDK, Terraform or else.
+The function code for deployment can be found in `main.py` and it shouldn't require modification. You can use any framework for deploying infrastructure such as bicep, or Terraform.
